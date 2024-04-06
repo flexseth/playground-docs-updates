@@ -15,11 +15,15 @@ Presenting the opportunity to revolutionize the way we work with WordPress.
 
 
 [Here's a list of what all is possible with blueprints](https://wordpress.github.io/wordpress-playground/blueprints-api/)
+- [ ] Update doc for "everything you can do with Playground"
+- https://github.com/WordPress/wordpress-playground/issues/1094
 
 ---
 
-### Created for initial site siteup
+## How to run blueprints?
 Blueprints are used to configure a website at **initial setup**, not to modify an existing website. If you want to destroy your beautiful sandcastle, read more about [resetting Playground environments.](./RESET-PLAYGROUND.md)  
+
+Currently, blueprints can be only used
 
 ---
 
@@ -129,8 +133,7 @@ Playground files are found in the `/home/user/.wp-now` directory. This directory
 ---
 
 ###### TODO
-
 ## Features requested
-- [ ] Playground mode - boot up a brand new WordPress install
-- [ ] VS Code extension - allow blueprints
-- [ ] Easier to use `wp-cli` - or better documentation
+Check out the [roadmap](./roadmap.md) for more information on what's coming up next.
+
+Everything listed in the [Blueprints library issue](https://github.com/WordPress/blueprints-library/issues/64)
