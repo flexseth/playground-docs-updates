@@ -125,9 +125,10 @@ Playground files are found in the `/home/user/.wp-now` directory. This directory
 - Sometimes it's necessary to open a new window and copy/paste your blueprint URL into the URL bar to run it
 - GitHub caches pages and is tough to cache bust - blueprint files may not update immediately
 - Formatting and sharing blueprints can be difficult, here's a tool for that 
-###### TODO
 
 ---
+
+###### TODO
 
 ## Features requested
 - [ ] Playground mode - boot up a brand new WordPress install

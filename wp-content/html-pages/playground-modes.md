@@ -23,10 +23,23 @@ Here's an example for using Plugin Mode
 ---
 
 ## Theme mode 
-Presence of a style.css file with 'Theme Name:' in its contents.
-Here's an example for using Theme Mode
+The basic ingredient for a Theme is the presence of a `style.css` file with an updated `'Theme Name:'` in the theme header.
+
+```PHP
+/*
+Theme Name: Block Theme
+Description: Built with Playground
+...
+*/
+
+```
+
+To create a brand new block theme, you will need the `Create Block Theme` plugin actiated, let's take a look at how to to do that. 
 
 [**Examples**](#)
+How to build a [block theme](./creating-themes-with-playground.md) based on TwentyTwentyFour with Playground
+- [ ] Showcase step-by-step demo
+- [ ] Showcase a blueprint with a block theme
 
 ---
 
