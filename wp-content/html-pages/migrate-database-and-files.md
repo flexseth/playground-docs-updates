@@ -1,12 +1,5 @@
 Migrating a WordPress website by moving the database and files has been a long-standing way to move a WordPress website from one server to another. This process involves exporting the database and files from the source server and importing them into the destination server. 
 
-## Related issues
-General info on migrations
-- https://github.com/WordPress/wordpress-playground/issues/1166
-
-Import WXR using WP-CLI
-- https://github.com/WordPress/blueprints-library/issues/90
-
 ## Limitations
 The `shell` command does not currently work on `wp-now`
 

@@ -78,8 +78,9 @@ Learn more about `wp-now`
 ---
 
 ## Migrations
-Importing and exporting websites in Playground. [#1166](https://github.com/WordPress/wordpress-playground/issues/1166)
-[ImportWxrStep documentation ](https://wordpress.github.io/wordpress-playground/blueprints-api/steps#ImportWxrStep)
+Migrations are a way to move a WordPress website from one server to another. This can be for demonstration purposes, testing, or to move a website from a local environment to a live server.
+
+Please see the [Migrations docs](./migrating.md) for more info
 
 
 ##### Migration methods
