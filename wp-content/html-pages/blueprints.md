@@ -138,3 +138,15 @@ Playground files are found in the `/home/user/.wp-now` directory. This directory
 Check out the [roadmap](./roadmap.md) for more information on what's coming up next.
 
 Everything listed in the [Blueprints library issue](https://github.com/WordPress/blueprints-library/issues/64)
+
+
+#### Links to add and address
+[Tracking: Redesign Documentation](https://github.com/WordPress/wordpress-playground/issues/217)
+
+### How to: 
+- [ ] Showcase my plugin or theme (live demos on .org)
+- [ ] Control the embedded website
+- [ ] provide interactive code snippets
+- [ ] preview pull requests from my repo
+- [ ] development environment without Apache or MySQL: `wp-now` vs. [VS Code Extension](./playground-tools/vs-code-extension.md)
+- [ ] Contributing to the Playground

@@ -1,6 +1,9 @@
 ## Feature requested
 Create easy access for users to report issues with the Playground.
 
+Relevant issue in GitHub
+- https://github.com/WordPress/wordpress-playground/issues/1165
+
 ## Related tools
 - [console logger](./console-logger.md)
 - [screenshot generator](./screenshot-generator.md)
