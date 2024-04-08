@@ -1,8 +1,8 @@
 ## How to contribute to Playground docs
 1. Fork the repository 
-2.
-3.
-4.
+2. step 2
+3. step 3
+4. step 4
 
 ## Documentation structure
 Docs structure is Top Level Page mapped to Top Level Directory, then the single pages are in the directories. The primary "about" pages are in the primary /wp-content/html-pages folder, these pages provide links to longer form docs pages when necessary. Or to other relevant documentation pages in the WordPress ecosystem.
