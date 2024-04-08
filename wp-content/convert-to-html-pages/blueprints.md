@@ -70,13 +70,6 @@ Learn more about `wp-now`
 
 ---
 
-
-#### Idiosyncracy 1
-`wp-now` does not support the `shell` step type. This means that you cannot run shell commands in `wp-now`.
-
-
----
-
 ## Migrations
 Migrations are a way to move a WordPress website from one server to another. This can be for demonstration purposes, testing, or to move a website from a local environment to a live server.
 

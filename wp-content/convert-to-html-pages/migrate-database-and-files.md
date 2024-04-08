@@ -1,7 +1,10 @@
 Migrating a WordPress website by moving the database and files has been a long-standing way to move a WordPress website from one server to another. This process involves exporting the database and files from the source server and importing them into the destination server. 
 
 ## Limitations
-The `shell` command does not currently work on `wp-now`
+`wp-now` does not support the `shell` step type. This means that you cannot run shell commands in `wp-now`.
+
+If the import/export method you're looking to use needs to run shell commands, you'll need to use a different method to migrate your website.
+- [ ] TODO: Clarify - 
 
 ---
 
