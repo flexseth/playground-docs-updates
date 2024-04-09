@@ -15,6 +15,8 @@ The `shell` step currently won't work in `wp-now` because it doesn't support the
 This is a known limitation that we are working towards making work! 
 - [ ] TODO: Clarify what common "shell" type things you can do another way in `wp-now`
 
+Please check the Playground Tools GitHub repo for [issues related to](https://github.com/search?q=repo%3AWordPress%2Fwordpress-playground+wp-now&type=issues) `wp-now` 
+
 ---
 
 ## Security warnings
