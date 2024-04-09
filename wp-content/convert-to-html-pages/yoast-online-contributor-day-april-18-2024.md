@@ -11,6 +11,7 @@
 
 ## Docs needed
 - [ ] [Jetpack modular demo](./qr-code-demos/jetpack.md) - Showcase various Jetpack configs
+- [ ] [Playground Plugin](./playground-tools/playground-plugin/README.md) - About the Playground Plugin
   
 ## Docs updates needed
 - Blueprints Community Space
