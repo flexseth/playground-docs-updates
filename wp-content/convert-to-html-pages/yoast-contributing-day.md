@@ -10,6 +10,8 @@
 - [ ] [Jetpack modular demo](./qr-code-demos/jetpack.md) - Showcase various Jetpack configs
   
 ## Docs updates needed
+Blueprints Community Space
+- [ ] [Must-use Plugins](./mu-plugins.md) - Update with new information
 
 ### Intermediate to Advanced level
 - [ ] `options` - Passing environment variables to Playground [via blueprints](./options.md)
