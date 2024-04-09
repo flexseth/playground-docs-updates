@@ -4,10 +4,15 @@ These types of plugins are required for a website to function correctly.
 ### What are Must-use Plugins?
 Must-use plugins are plugins that are automatically activated on a WordPress site. They are also known as mu-plugins. These plugins are stored in the `wp-content/mu-plugins` directory and are automatically activated when WordPress is loaded. Must-use plugins are useful for adding functionality to a site that should not be disabled by the user.
 
+## Discussions about `mu-plugins` in Playground
+- [What is the best way to load my mu-plugins? #198](https://github.com/WordPress/playground-tools/issues/198)
+
  ### `mu-plugins` vs `Requires Plugins` header
  In the context of the Playground, `mu-plugins` are typically a piece of code that runs when a blueprint is executed.
 
- `mu-plugins` can be used to
+ `mu-plugins` can be used to...
+ - [ ] TODO: Needs context: Add context here
+
  
  #### Customize the WordPress environment (`options`)
  - Customize permalinks - see [example blueprint](./options-set-permalinks.json)
