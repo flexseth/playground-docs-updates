@@ -9,3 +9,7 @@
 ## Docs needed
 - [ ] [Jetpack modular demo](./qr-code-demos/jetpack.md) - Showcase various Jetpack configs
   
+## Docs updates needed
+
+### Intermediate to Advanced level
+- [ ] `options` - Passing environment variables to Playground [via blueprints](./options.md)
