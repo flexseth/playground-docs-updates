@@ -1,0 +1,10 @@
+{
+    "steps": [
+        {
+            "step": "defineWpConfigConsts",
+            "consts": {
+                "WP_DEBUG": true
+            }
+        }
+    ]
+}

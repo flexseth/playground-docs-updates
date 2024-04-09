@@ -1,0 +1,1 @@
+https://developer.wordpress.org/plugins/wordpress-org/previews-and-blueprints/#blueprints

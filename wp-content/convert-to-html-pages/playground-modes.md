@@ -1,0 +1,67 @@
+## Automatic Modes
+`wp-now` automatically operates in a few different modes for both the start and the php commands. 
+
+The selected mode depends on the directory in which it is executed:
+
+- Plugin Mode
+- Theme Mode
+- Content Mode - load up wp-content
+
+Loads the project files into a virtual filesytem with WordPress and a SQLite-based database. Everything (including WordPress core files, the database, wp-config.php, etc.) is stored in the user's home directory and loaded into the virtual filesystem. The latest version of WordPress will be used, unless the `--wp=<version>` argument is provided. 
+
+[**Examples**](#)
+
+---
+
+## Plugin mode
+Presence of a PHP file with 'Plugin Name:' in its contents.
+
+Here's an example for using Plugin Mode
+
+[**Examples**](#)
+
+---
+
+## Theme mode 
+The basic ingredient for a Theme is the presence of a `style.css` file with an updated `'Theme Name:'` in the theme header.
+
+```PHP
+/*
+Theme Name: Block Theme
+Description: Built with Playground
+...
+*/
+
+```
+
+To create a brand new block theme, you will need the `Create Block Theme` plugin actiated, let's take a look at how to to do that. 
+
+[**Examples**](#)
+How to build a [block theme](./creating-themes-with-playground.md) based on TwentyTwentyFour with Playground
+- [ ] Showcase step-by-step demo
+- [ ] Showcase a blueprint with a block theme
+
+---
+
+## wp-content mode
+Presence of plugins and themes subdirectories.
+Here's an example for using content mode
+
+wordpress: Runs the directory as a WordPress installation when WordPress files are detected. An existing wp-config.php file will be used if it exists; if it doesn't exist, it will be created along with a SQLite database.
+
+[**Examples**](#)
+
+---
+
+## WordPress Develop mode
+Same as wordpress mode, except the build directory is served as the web root.
+
+[**Examples**](#)
+
+---
+
+## index.php mode
+When an index.php file is present, starts a PHP webserver in the working directory and simply passes requests to the index.php.
+playground: If no other conditions are matched, launches a completely virtualized WordPress site.
+
+[**Examples**](#)

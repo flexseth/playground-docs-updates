@@ -1,0 +1,11 @@
+{
+    "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "A New Playground Site",
+                "blogdescription": "Welcome to the Sandbox!"
+            }
+        }
+    ]
+}
