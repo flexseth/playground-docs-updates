@@ -13,3 +13,4 @@
 
 ### Intermediate to Advanced level
 - [ ] `options` - Passing environment variables to Playground [via blueprints](./options.md)
+ - Please checkout the `docs/options` branch for work on this page.
