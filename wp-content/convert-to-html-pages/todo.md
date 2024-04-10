@@ -1,7 +1,13 @@
+## Top-level objectives
+- Onboarding to contributing
+- 
+
 ## Yoast Contributor Day
 Everything needed to have folks contribute to Playground on this day.
 
 Playground in a box - in many forms. Get in the Sandbox. 
+
+- Yoast Contributor Day requests
 
 ---
 
@@ -47,3 +53,7 @@ Using Blueprints (developer & end-user documentation)
   - [ ] [WordPress Coding Standards](./wordpress-coding-standards.md)
   - [ ] [Testing with WP-CLI](./testing-with-wp-cli.md)
   - [ ] [Debugging Blueprints](./debugging-blueprints.md)
+
+
+## Resources
+- [ ] Include all relevant content from https://wordpress.org/playground/ in the docs

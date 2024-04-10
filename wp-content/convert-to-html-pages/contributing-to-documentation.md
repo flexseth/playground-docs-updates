@@ -1,8 +1,9 @@
 ## How to contribute to Playground docs
 1. Fork the repository 
-2. step 2
-3. step 3
-4. step 4
+2. Convert Markdown pages to HTML, add content
+3. Submit a PR back to the repo with your changes
+4. Request review
+5. Get props for your work
 
 ## Documentation structure
 Docs structure is Top Level Page mapped to Top Level Directory, then the single pages are in the directories. The primary "about" pages are in the primary /wp-content/html-pages folder, these pages provide links to longer form docs pages when necessary. Or to other relevant documentation pages in the WordPress ecosystem.
