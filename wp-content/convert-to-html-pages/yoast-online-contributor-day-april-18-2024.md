@@ -4,14 +4,19 @@
 - Adding screenshots to the Playground documentation
 - Adding code examples to the Playground documentation
 
+## Good first contributions
+- [Resources page](./resources.md) - Add more resources
+
 ## How to contribute
 
 ## Docs needed
 - [ ] [Jetpack modular demo](./qr-code-demos/jetpack.md) - Showcase various Jetpack configs
+- [ ] [Playground Plugin](./playground-tools/playground-plugin/README.md) - About the Playground Plugin
   
 ## Docs updates needed
-Blueprints Community Space
-- [ ] [Must-use Plugins](./mu-plugins.md) - Update with new information
+- Blueprints Community Space
+ - [ ] [Must-use Plugins](./mu-plugins.md) - Update with new information
+
 
 Information consolidation
 - [ ] Include all relevant content from https://wordpress.org/playground/ in the docs
