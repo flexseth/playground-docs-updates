@@ -47,3 +47,7 @@ Using Blueprints (developer & end-user documentation)
   - [ ] [WordPress Coding Standards](./wordpress-coding-standards.md)
   - [ ] [Testing with WP-CLI](./testing-with-wp-cli.md)
   - [ ] [Debugging Blueprints](./debugging-blueprints.md)
+
+
+## Resources
+- [ ] Include all relevant content from https://wordpress.org/playground/ in the docs
