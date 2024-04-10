@@ -10,3 +10,7 @@ TODO: Docs
   - The `post content` will be the content of the file
   - Mark the page as pending using the `post_status` field
   - Review the page in the Gutenberg block editor (include step)
+
+## Roadmap
+From [Roadmap](roadmap.md) - Discussions on more file types
+- [ ] More file types for Import/Export - see [#1192](https://github.com/WordPress/wordpress-playground/pull/1192) 
