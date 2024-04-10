@@ -5,6 +5,9 @@ Official APIs for the Playground
 - [Query API](https://wordpress.github.io/wordpress-playground/query-api)
 - `wp-now` - [docs](https://www.npmjs.com/package/@wp-now/wp-now)  
 
+## From WP.org
+[Introduction to Playground: running WordPress in the browser](https://developer.wordpress.org/news/2024/04/05/introduction-to-playground-running-wordpress-in-the-browser/)
+
 
 ## Videos
 WP.tv videos on Playground, in reverse chronological order:
