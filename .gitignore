@@ -45,4 +45,16 @@ wp-config.php
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-#/wp-content/themes
+/wp-content/themes
+
+# Completed HTML files in the root directory
+wp-content/html-pages
+
+# Theme files
+twenty*
+
+# Plugin files
+*.php
+
+# Blueprints in the root directory
+wp-content/*.json
