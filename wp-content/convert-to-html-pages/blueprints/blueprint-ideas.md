@@ -32,6 +32,12 @@ Work with patterns
     - [all about Patterns](https://github.com/WordPress/Documentation-Issue-Tracker/issues/1520)
     - after registration, create pages based on pattern slug and navigate to all patterns
 
+Hooks, Actions, and Filters (oh my!)
+- Work with `PHP` in WordPress
+    - [example](https://plugins.svn.wordpress.org/webtoffee-product-feed/assets/blueprints/blueprint.json) for using `add_filter` with a `mu-pugin`  
+        - Needs fix per [Slack convo](https://wordpress.slack.com/archives/C04EWKGDJ0K/p1712656197432919)
+    - Another example 
+
 #### Create content
 - Generate content using Fakerpress (plugin demo, content), navigate to Pages
 - Markdown to WordPress - Create WordPress posts from a Markdown file
@@ -53,7 +59,7 @@ Work with patterns
     - create a new user account via `wp-cli` 
     - share access (export/import)
 - Teach a class how to build a plugin
-    - use `create-plugin` utility
+    - use `create-plugin` utility (needs dev)
     - install Playground Plugin
     - open a page with an `Interactive Code` block on it
 
@@ -65,7 +71,7 @@ Stylebook - customize theme styles and jump to the stylebook
 
 #### Maintenance, Optimization, Configuration
 Start with a "completely fresh" WordPress install
-- [remove all extra pages and all content] (start completely fresh)
+- [Site Cleanup plugin](https://github.com/janw-me/default-featured-image/blob/main/.wordpress-org/blueprints/blueprint.json) (start completely fresh)
 
 [Speculative Loading](https://make.wordpress.org/core/2024/04/09/speculative-loading-in-wordpress/) - preload assets to make the site faster
 
