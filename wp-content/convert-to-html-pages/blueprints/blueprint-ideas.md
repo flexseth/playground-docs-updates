@@ -8,22 +8,32 @@ Here are a list of ideas of what you could conceivably do with Blueprints.
 ---
 
 #### Design & Development
-- Create a new custom block
- - scaffold a new block via the `create-block` package
- - include steps for build setup
- - uses CLI input to bring variables to create block ingredients
+Create a new custom block
+- scaffold a new block via the `create-block` package
+    - include steps for build setup
+    - uses CLI input to bring variables to create block ingredients
+
+Create a new block theme
 - `create-block-theme` 
+
+Create a new block plugin
 - `create-block-plugin` 
- - scaffold a plugin via `WP-CLI`
- - or try using the [Better Plugin Boilerplate](https://github.com/TukuToi/better-wp-plugin-boilerplate)
+    - scaffold a plugin via `WP-CLI`
+    - or try using the [Better Plugin Boilerplate](https://github.com/TukuToi/better-wp-plugin-boilerplate)
+
+Create content
 - Generate content using Fakerpress (plugin demo, content), navigate to Pages
+
+Create a block library
 - Block Library - create a block library
- - a blueprint that creates a block library
- - or create an interface to create multiple blocks
+    - a blueprint that creates a block library
+    - or create an interface to create multiple blocks
+
+Work with patterns
 - Pattern UI
- - create a pattern based on `WP-CLI` input
- - [all about Patterns](https://github.com/WordPress/Documentation-Issue-Tracker/issues/1520)
- - after registration, create pages based on pattern slug and navigate to all patterns
+    - create a pattern based on `WP-CLI` input
+    - [all about Patterns](https://github.com/WordPress/Documentation-Issue-Tracker/issues/1520)
+    - after registration, create pages based on pattern slug and navigate to all patterns
 
 
 #### Testing
@@ -35,12 +45,12 @@ Here are a list of ideas of what you could conceivably do with Blueprints.
 - Demo a plugin with a blueprint that imports relevant content
 - Share a blueprint with a colleague
 - Collaborate on a Playground with a colleague
- - create a new user account via `wp-cli` 
- - share access (export/import)
+    - create a new user account via `wp-cli` 
+    - share access (export/import)
 - Teach a class how to build a plugin
- - use `create-plugin` utility
- - install Playground Plugin
- - open a page with an `Interactive Code` block on it
+    - use `create-plugin` utility
+    - install Playground Plugin
+    - open a page with an `Interactive Code` block on it
 
 #### Deep Linking
 Stylebook
@@ -49,12 +59,15 @@ Stylebook
 - Jump to the stylebook to view the custom styles
 
 #### Maintenance, Optimization, Configuration
-- Start with a "completely fresh" WordPress install
- - [remove all extra pages and all content] (start completely fresh)
-- [Speculative Loading](https://make.wordpress.org/core/2024/04/09/speculative-loading-in-wordpress/) - preload assets to make the site faster
-- Optimization - run [Performance Lab](https://wordpress.org/plugins/performance-lab/) on a site
-- [Using WordPress configuration variables](https://wordpress.github.io/wordpress-playground/blueprints-api/steps/#DefineWpConfigConstsStep) - `DefineWPConfigConstsStep`
- - Define custom config variables via `wp-config` to use with `WP-CLI` in blueprints - see [Slack thread](https://wordpress.slack.com/archives/C02RP4T41/p1712283654650719)
+Start with a "completely fresh" WordPress install
+- [remove all extra pages and all content] (start completely fresh)
+
+[Speculative Loading](https://make.wordpress.org/core/2024/04/09/speculative-loading-in-wordpress/) - preload assets to make the site faster
+
+Optimization - run [Performance Lab](https://wordpress.org/plugins/performance-lab/) on a site
+
+[Using WordPress configuration variables](https://wordpress.github.io/wordpress-playground/blueprints-api/steps/#DefineWpConfigConstsStep) - `DefineWPConfigConstsStep`
+- Define custom config variables via `wp-config` to use with `WP-CLI` in blueprints - see [Slack thread](https://wordpress.slack.com/archives/C02RP4T41/p1712283654650719)
 
 
 ---
@@ -72,5 +85,3 @@ Automatically add blueprint keywords
 - Add categories to the blueprint for searchability
 - scan the blueprint for keywords common to the `plugins` directory
 - add keywords to the blueprint `metadata` as `categories`
-
-
