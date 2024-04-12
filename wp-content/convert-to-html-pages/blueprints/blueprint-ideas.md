@@ -56,7 +56,7 @@ Working with the datastore
 
 #### Testing, Debugging
 Testing
-- Theme Unit Test - must fix [Add CORS headers]
+- Theme Unit Test - [must fix(https://github.com/WordPress/wordpress-playground/issues/718)] [Add CORS headers]
 - WordPress Coding Standards (`WPCS`) - install Plugin Review Check and run on a plugin
 - Theme Check - install `Theme Check` [plugin](https://wordpress.org/plugins/theme-check/) and run on a theme
 
