@@ -86,3 +86,4 @@ Automatically add blueprint keywords
 - Add categories to the blueprint for searchability
 - scan the blueprint for keywords common to the `plugins` directory
 - add keywords to the blueprint `metadata` as `categories`
+- ["hot" keywords API](https://api.wordpress.org/plugins/info/1.2/?action=hot_tags) - test it out! 
