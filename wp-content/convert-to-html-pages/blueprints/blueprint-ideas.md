@@ -53,7 +53,7 @@ Work with patterns
     - open a page with an `Interactive Code` block on it
 
 #### Deep Linking
-Stylebook
+Stylebook - customize theme styles and jump to the stylebook
 - add custom styles to theme.json via the CLI
 - or define your custom styles in the root directory, write to `theme.json` file
 - Jump to the stylebook to view the custom styles
@@ -82,6 +82,7 @@ Automatic networking detection
 - scan blueprint for need, if so, turn on networking
 
 Automatically add blueprint keywords
+- Helpful when submitting to Blueprints Community
 - Add categories to the blueprint for searchability
 - scan the blueprint for keywords common to the `plugins` directory
 - add keywords to the blueprint `metadata` as `categories`
