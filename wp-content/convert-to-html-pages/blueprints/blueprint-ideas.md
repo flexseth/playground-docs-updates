@@ -14,10 +14,15 @@ Here are a list of ideas of what you could conceivably do with Blueprints.
 - `create-block-plugin` 
  - scaffold a plugin via `WP-CLI`
  - or try using the [Better Plugin Boilerplate](https://github.com/TukuToi/better-wp-plugin-boilerplate)
-- Generate content using Fakerpress (plugin demo, content)
+- Generate content using Fakerpress (plugin demo, content), navigate to Pages
 - Block Library - create a block library
  - a blueprint that creates a block library
  - or create an interface to create multiple blocks
+- Pattern UI
+ - create a pattern based on `WP-CLI` input
+ - [all about Patterns](https://github.com/WordPress/Documentation-Issue-Tracker/issues/1520)
+ - after registration, create pages based on pattern slug and navigate to all patterns
+
 
 #### Testing
 - Theme Unit Test - must fix [Add CORS headers]
@@ -58,9 +63,9 @@ Automatic networking detection
 - Network detection is turned off by default
 - scan blueprint for need, if so, turn on networking
 
-Keywording
-- Add keywords to the blueprint for searchability
+Automatically add blueprint keywords
+- Add categories to the blueprint for searchability
 - scan the blueprint for keywords common to the `plugins` directory
-- add keywords to the blueprint `metadata`
+- add keywords to the blueprint `metadata` as `categories`
 
 
