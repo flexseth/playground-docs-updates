@@ -21,9 +21,6 @@ Create a new block plugin
     - scaffold a plugin via `WP-CLI`
     - or try using the [Better Plugin Boilerplate](https://github.com/TukuToi/better-wp-plugin-boilerplate)
 
-Create content
-- Generate content using Fakerpress (plugin demo, content), navigate to Pages
-
 Create a block library
 - Block Library - create a block library
     - a blueprint that creates a block library
@@ -35,6 +32,14 @@ Work with patterns
     - [all about Patterns](https://github.com/WordPress/Documentation-Issue-Tracker/issues/1520)
     - after registration, create pages based on pattern slug and navigate to all patterns
 
+#### Create content
+- Generate content using Fakerpress (plugin demo, content), navigate to Pages
+- Markdown to WordPress - Create WordPress posts from a Markdown file
+ - read file via `wp-cli`
+ - create a new post
+ - how to handle taxonomy and meta, etc.
+ - sets the stage for migrating all Markdown related docs pages to WordPress
+ - also sets the stage to standardize Gutenberg for documentation in other Open Source Software projects!!
 
 #### Testing
 - Theme Unit Test - must fix [Add CORS headers]
