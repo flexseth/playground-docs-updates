@@ -41,9 +41,11 @@ Stylebook
 - or define your custom styles in the root directory, write to `theme.json` file
 - Jump to the stylebook to view the custom styles
 
-### Maintenance
-Start with a "completely fresh" WordPress install
-- Remove all extra pages and all content (start completely fresh)
+### Maintenance, Optimization
+- Start with a "completely fresh" WordPress install
+ - [remove all extra pages and all content] (start completely fresh)
+- [Speculative Loading](https://make.wordpress.org/core/2024/04/09/speculative-loading-in-wordpress/) - preload assets to make the site faster
+- Optimization - run [Performance Lab](https://wordpress.org/plugins/performance-lab/) on a site
 
 ### Blueprint utilities
 Automatically add CORS support if needed
@@ -58,3 +60,5 @@ Keywording
 - Add keywords to the blueprint for searchability
 - scan the blueprint for keywords common to the `plugins` directory
 - add keywords to the blueprint `metadata`
+
+
