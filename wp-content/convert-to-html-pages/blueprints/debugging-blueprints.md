@@ -5,3 +5,4 @@
 
 ## Debugging Blueprints
 - [ ] TODO: Add info on `debug.log` file in the filesystem
+ - See [defining debugging constants](https://www.npmjs.com/package/@wp-now/wp-now#defining-debugging-constants) in `wp-config.php` for more info (`wp-now` feature)

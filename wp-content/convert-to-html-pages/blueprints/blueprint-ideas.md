@@ -47,10 +47,14 @@ Hooks, Actions, and Filters (oh my!)
  - sets the stage for migrating all Markdown related docs pages to WordPress
  - also sets the stage to standardize Gutenberg for documentation in other Open Source Software projects!!
 
-#### Testing
+#### Testing, Debugging
+Testing
 - Theme Unit Test - must fix [Add CORS headers]
 - WordPress Coding Standards (`WPCS`) - install Plugin Review Check and run on a plugin
 - Theme Check - install `Theme Check` [plugin](https://wordpress.org/plugins/theme-check/) and run on a theme
+
+Debugging 
+- Using the [Debug Bar](https://wordpress.org/plugins/debug-bar/) in your Playground
 
 #### Demos, Sharing, Collaboration, Teaching
 - Demo a plugin with a blueprint that imports relevant content
