@@ -5,6 +5,8 @@ Here are a list of ideas of what you could conceivably do with Blueprints.
 
 ### Blueprint Ideas
 
+---
+
 #### Design & Development
 - Create a new custom block
  - scaffold a new block via the `create-block` package
@@ -40,19 +42,22 @@ Here are a list of ideas of what you could conceivably do with Blueprints.
  - install Playground Plugin
  - open a page with an `Interactive Code` block on it
 
-### Deep Linking
+#### Deep Linking
 Stylebook
 - add custom styles to theme.json via the CLI
 - or define your custom styles in the root directory, write to `theme.json` file
 - Jump to the stylebook to view the custom styles
 
-### Maintenance, Optimization, Configuration
+#### Maintenance, Optimization, Configuration
 - Start with a "completely fresh" WordPress install
  - [remove all extra pages and all content] (start completely fresh)
 - [Speculative Loading](https://make.wordpress.org/core/2024/04/09/speculative-loading-in-wordpress/) - preload assets to make the site faster
 - Optimization - run [Performance Lab](https://wordpress.org/plugins/performance-lab/) on a site
 - [Using WordPress configuration variables](https://wordpress.github.io/wordpress-playground/blueprints-api/steps/#DefineWpConfigConstsStep) - `DefineWPConfigConstsStep`
  - Define custom config variables via `wp-config` to use with `WP-CLI` in blueprints - see [Slack thread](https://wordpress.slack.com/archives/C02RP4T41/p1712283654650719)
+
+
+---
 
 ### Blueprint utilities
 Automatically add CORS support if needed
