@@ -16,3 +16,5 @@ It will be displayed in the Blueprint editor and can be used to explain the Blue
  - `blueprint-directory-name`
  - `blueprint-directory-name/blueprint.json`
  - `blueprint-directory-name/blueprint.md`
+- TODO: Plugin previews with comments
+ - see the [following file structure](https://github.com/ockham/like-button/tree/trunk/_playground)
