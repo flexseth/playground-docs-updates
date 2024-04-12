@@ -47,6 +47,13 @@ Hooks, Actions, and Filters (oh my!)
  - sets the stage for migrating all Markdown related docs pages to WordPress
  - also sets the stage to standardize Gutenberg for documentation in other Open Source Software projects!!
 
+#### Working with content
+Working with the datastore
+- Get data from WordPress in JavaScript (`use` hooks)
+- `useSelect` example
+- Working with a custom datastore
+
+
 #### Testing, Debugging
 Testing
 - Theme Unit Test - must fix [Add CORS headers]
