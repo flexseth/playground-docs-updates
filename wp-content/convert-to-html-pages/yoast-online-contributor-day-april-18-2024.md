@@ -18,6 +18,9 @@
  - [ ] [Must-use Plugins](./mu-plugins.md) - Update with new information
 
 
+Information consolidation
+- [ ] Include all relevant content from https://wordpress.org/playground/ in the docs
+
 ### Intermediate to Advanced level
 - [ ] `options` - Passing environment variables to Playground [via blueprints](./options.md)
  - Please checkout the `docs/options` branch for work on this page.

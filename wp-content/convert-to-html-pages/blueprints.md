@@ -1,18 +1,4 @@
 Welcome to Blueprints for the WordPress Playgound 
-## All about blueprints
-Common use cases, configurations, one-click demos of WordPress in the browser.
-
----
-
-### What are blueprints?
-Blueprints define a series of steps to take when installing WordPress. 
-
-Written in `JSON` format, steps can do anything WordPress can do and more. 
-
-[Blueprints](#) can be used to [install plugins](https://wordpress.github.io/wordpress-playground/blueprints-api/steps#InstallPluginStep), [themes](https://wordpress.github.io/wordpress-playground/blueprints-api/steps#InstallThemeStep), and [configure settings](https://wordpress.github.io/wordpress-playground/blueprints-api/steps/#SetSiteOptionsStep). Blueprints can be used to [automate processes](#), [import websites](#), and for [testing purposes](#).
-
-Presenting the opportunity to revolutionize the way we work with WordPress.
-
 
 [Here's a list of what all is possible with blueprints](https://wordpress.github.io/wordpress-playground/blueprints-api/)
 - [ ] Update doc for "everything you can do with Playground"
@@ -23,7 +9,12 @@ Presenting the opportunity to revolutionize the way we work with WordPress.
 ## How to run blueprints?
 Blueprints are used to configure a website at **initial setup**, not to modify an existing website. If you want to destroy your beautiful sandcastle, read more about [resetting Playground environments.](./RESET-PLAYGROUND.md)  
 
-Currently, blueprints can be only used
+There are a couple of ways to "re-run" blueprints, but in general, they are meant to be run on a fresh WordPress environment.
+
+There are a couple of ways to run blueprints: 
+- Go to the blueprint previewer
+- [Use `wp-now`](./wp-now.md) to run your blueprint locally
+- Copy/paste your blueprint into the playground.net URL bar
 
 ---
 
@@ -37,14 +28,6 @@ Blueprints API is in [V1](https://wordpress.github.io/wordpress-playground/bluep
 
 ---
 
-## How to use Blueprints?
-There are a couple of ways to test blueprints: 
-- Go to the blueprint previewer
-- [Use `wp-now`](./wp-now.md) to run your blueprint locally
-- Copy/paste your blueprint into the playground.net URL bar
-
----
-
 ## Gotchas!
 Blueprints are meant to be run on a fresh WordPress environment. If you have already run a blueprint on the same environment, you will need to reset the environment before running the blueprint again.
 
@@ -55,6 +38,7 @@ In `wp-now`, you can reset the environment by running `wp-now --reset`
 ---
 
 ## Blueprint tools
+### Blueprint `schema`
 Blueprint schema is probably the most important tool for building blueprints. It defines the structure of the blueprint and the available options. The schema is used to validate the blueprint and provide a user-friendly interface for creating blueprints.
 
 
@@ -67,6 +51,9 @@ Including the [blueprint schema](./examples/blueprint-schema.json) at the top of
 
 Learn more about `wp-now` 
 
+---
+
+### VS Code Extension
 
 ---
 
