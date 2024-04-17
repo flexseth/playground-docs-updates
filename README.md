@@ -1,17 +1,40 @@
-## Welcome to the Playground Documentation!
-This is the official documentation for the WordPress Playground project.
+## Docs via the Gutenberg Block Editor
+Pages here were created in Markdown. The rationale is that Markdown can be pasted into the Block Editor and converted to HTML. 
 
-## Known Limitations
-Might be an important starting point to figure out which version of Playground you want to use, workarounds needed, or what features are not available.
+Markdown is a great syntax for creating
+- headings
+- intro content (excerpts)
+- links - to other documentation, to external resources
+- source code
 
-See [Known Limitations](./known-limitations.md) for more information.
+... which allows it to be a great source to enter into the block editor. 
 
-## Contributing to documentation
-Please see [Contributing to Playground](./contributing.md) for more information on how to contribute to the Playground documentation. Includes step-by-step instructions for submitting bug reports, feature requests, sharing blueprints and also how to contribute to the Playground codebase.
+### About pages in this directory
+- Each page is a Markdown file
+- Pages can be pasted into the Block Editor to create a docs page
+- Contributors can then edit the page in the block editor
+- PRs can then be used to update the docs (see workflow below)
 
-See [Contributing to Playground](./contributing.md) for more information.
+### How to contribute
+A best practice is to create an individual branch for the set of pages or features you want to work on. Use descriptive names like `{feature-name}` 
+- [ ] TODO: Add steps to contribute...
 
-## TODO
-For those looking to actively contribute to documentation, [todo.md](./) file is where the top-level requests have been made for documentation. It also includes more information on finding things to do in the repo!
 
-See [TODO](./TODO.md) for more information.
+### 
+
+## Discussion around meta (Taxonomy)
+Finally, add taxonomy to your post so it can be properly categorized and tagged.
+- [ ] TODO: Add snippets for the following
+- include the `post-tags` block  
+- include the `post-categories` block
+
+- TODO: Plugin that Auto Cats and Tags 
+    - auto adds the categories and tags to block markup
+    Use a block hook to add categories before the post title
+    - and block categories appended after the post content. 
+    - Add this to the end of your post so the information can be processed correctly (when installed, the categories and tags will be also added in WordPress) when imported via the blueprint.
+
+
+
+### Props
+- TODO: Add steps for giving [props](https://github.com/adamziel/blueprints/issues/21) to docs contributors
