@@ -47,6 +47,9 @@ Output Hello World to the console by passing in a variable
   ]
 }
 ``` 
+In the example above, the `my_option` option is defined in the blueprint schema. The `shell` step then uses the `$MY_OPTION` environment variable to access the value of the option and output it to the console.
+
+When the blueprint is executed, the output will be `Hello, World!` as defined in the default value of the `my_option` option.
 
 ## Known Limitations
  `options` are only supported in the online version of the Playground, for now. 
