@@ -26,6 +26,7 @@ No - I went to a URL pointing to a fragment on playground.wordpress.net
 If you didn't use a custom blueprint: 
 - write no custom blueprint and
 - explain user flow for how you got to this link
+- Please link to the Issue, Pull Request, or discussion around the link with fragment
 
 
 -->
