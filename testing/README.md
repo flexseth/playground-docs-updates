@@ -16,6 +16,22 @@ Cypress is a popular testing framework for web applications. It is a fast, easy-
 -  E2E Tests with Cypress - [#802](https://github.com/WordPress/wordpress-playground/pull/802)
 
 
+# Testing Plugins
+
+## Enable Live Previews on WordPress.org/plugins
+You can enable a live demo of your plugin on WordPress.org/plugins by following the steps outlined in Enabling [Plugin Previews](../plugin-previews.md).
+
+## Testing a plugin
+[Walkthrough testing a plugin](./testing-a-plugin.md) with the VS Code Extension
+
+## Testing a theme
+Import [theme unit test data](./import-theme-unit-test-data.md) to test your theme. Some current limitations bust mostly working.
+
+The following URL will showcase the TwentyTwentyFour theme with the theme unit test data imported.
+
+https://playground.wordpress.net/?php=8.0&wp=6.4&storage=none&networking=yes&import-content=https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml
+
+
 Tracking testing coverage
 -  E2E Test Coverage - Tracking - [#807](https://github.com/WordPress/wordpress-playground/issues/807)
 
@@ -26,12 +42,6 @@ Tracking testing coverage
 
 ---
 
-# Testing Plugins
-
-## Enable Live Previews on WordPress.org/plugins
-You can enable a live demo of your plugin on WordPress.org/plugins by following the steps outlined in Enabling [Plugin Previews](../plugin-previews.md).
-
-# Testing Themes
 
 ## Accessibility Testing
 Accessibility testing considerations
