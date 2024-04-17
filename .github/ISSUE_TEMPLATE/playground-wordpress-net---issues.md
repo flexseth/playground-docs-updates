@@ -73,6 +73,9 @@ You can use the [Site Health](site-health.md) Check screen to
  - submit WordPress environment info
  - submit local system info
 
+You can use the Playground menu to `Report error`, which will automaticlly send some information and submit to the `#playground-logs` Channel on Making WordPress Slack.
+
+
 ## `#playground-logs` on Slack
 How to report to the #`playground-logs` instance on Making WordPress Slack?
 
