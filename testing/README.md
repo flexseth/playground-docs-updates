@@ -24,8 +24,6 @@ Tracking testing coverage
 -  Testing with [Jest](./testing-with-jest.md)
 -  Performance Testing
 
-
-
 ---
 
 # Testing Plugins
