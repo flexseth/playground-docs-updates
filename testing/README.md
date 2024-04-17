@@ -4,17 +4,36 @@ Testing in WordPress Playground is a way to ensure that your code is working as 
 There are different types of testing that can be done in the Playground, including unit testing, integration testing, end-to-end testing, and performance testing. 
 
 This document provides an overview of the different types of testing that can be done in the Playground, as well as some best practices for testing your code. 
--  Integration Testing
--  End-to-End Testing
--  Testing with Playwright
--  Testing with Cypress
--  Testing with Selenium
--  Testing with Jest
--  Performance Testing
+
+###  Integration Testing - // needs docs, what is, tests
+
+###  [End-to-End](../e2e-testing-in-playground.md) Testing
+-  Testing with [PHPUnit](./testing-PHPUnit.md)
+-  Testing with Playwright - link to [Gutenberg packages](https://github.com/WordPress/gutenberg/tree/trunk/packages/e2e-test-utils-playwright)
 
 ## Testing with Cypress
 Cypress is a popular testing framework for web applications. It is a fast, easy-to-use tool that allows you to write and run tests for your web applications.
+-  E2E Tests with Cypress - [#802](https://github.com/WordPress/wordpress-playground/pull/802)
 
+
+Tracking testing coverage
+-  E2E Test Coverage - Tracking - [#807](https://github.com/WordPress/wordpress-playground/issues/807)
+
+### Misc testing
+-  Testing with Selenium
+-  Testing with [Jest](./testing-with-jest.md)
+-  Performance Testing
+
+
+
+---
+
+# Testing Plugins
+
+## Enable Live Previews on WordPress.org/plugins
+You can enable a live demo of your plugin on WordPress.org/plugins by following the steps outlined in Enabling [Plugin Previews](../plugin-previews.md).
+
+# Testing Themes
 
 ## Accessibility Testing
 Accessibility testing considerations
@@ -30,3 +49,5 @@ Accessibility testing considerations
 Unit Testing with PHPUnit - [blocked by #1250](https://github.com/WordPress/wordpress-playground/pull/1250)
 
 E2E tests for GitHub integration [#805](https://github.com/WordPress/wordpress-playground/issues/805)
+
+E2E tests for the local filesystem sync [#806](https://github.com/WordPress/wordpress-playground/issues/806)
