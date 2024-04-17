@@ -1,7 +1,13 @@
+## Top-level objectives
+- Onboarding to contributing
+- 
+
 ## Yoast Contributor Day
 Everything needed to have folks contribute to Playground on this day.
 
 Playground in a box - in many forms. Get in the Sandbox. 
+
+- Yoast Contributor Day requests
 
 ---
 
