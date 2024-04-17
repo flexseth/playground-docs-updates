@@ -1,5 +1,6 @@
 ## Working with `options` in Blueprints
 `options` allow you to pass environment data to a blueprint, provided to customize the blueprint's behavior. 
+
 ## Options in Blueprints
 `Options` allow you to pass environment data to a blueprint, provided to customize the blueprint's behavior. 
 
