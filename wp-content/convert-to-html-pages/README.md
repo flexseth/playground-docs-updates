@@ -16,21 +16,25 @@ Markdown is a great syntax for creating
 - PRs can then be used to update the docs (see workflow below)
 
 ### How to contribute
-A best practice is to create an individual branch for the page you want to work on.
+A best practice is to create an individual branch for the set of pages or features you want to work on. Use descriptive names like `{feature-name}` 
 - [ ] TODO: Add steps to contribute...
 
 
-### Taxonomy
+### 
+
+## Discussion around meta (Taxonomy)
 Finally, add taxonomy to your post so it can be properly categorized and tagged.
 - [ ] TODO: Add snippets for the following
 - include the `post-tags` block  
 - include the `post-categories` block
 
-Add this to the end of your post so the information can be processed correctly.
+- TODO: Plugin that Auto Cats and Tags 
+    - auto adds the categories and tags to block markup
+    Use a block hook to add categories before the post title
+    - and block categories appended after the post content. 
+    - Add this to the end of your post so the information can be processed correctly (when installed, the categories and tags will be also added in WordPress) when imported via the blueprint.
 
-The Playground Plugin will handling parsing the content when imported to WordPress. 
+
 
 ### Props
-- [ ] TODO: Add steps for giving props to docs contributors
-
-
+- TODO: Add steps for giving [props](https://github.com/adamziel/blueprints/issues/21) to docs contributors
