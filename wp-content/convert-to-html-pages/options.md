@@ -1,5 +1,7 @@
 ## Working with `options` in Blueprints
 `options` allow you to pass environment data to a blueprint, provided to customize the blueprint's behavior. 
+## Options in Blueprints
+`Options` allow you to pass environment data to a blueprint, provided to customize the blueprint's behavior. 
 
 Environment variables are a way to pass dynamic values to a program or script at runtime. They are commonly used to configure and customize the behavior of applications. In the context of the code you provided, options can be passed as environment variables to the blueprint.
 
@@ -12,6 +14,10 @@ Options are defined in the blueprint schema and can be accessed in the blueprint
 
 All options are passed to the environment via a `shell` step in the blueprint.
 
+# Example
+This may not be the best example, but it's a start.
+It doesn't work yet, but it's a start.
+If someone wants to [fix me](contributing-to-documentation.md), that would be great :)
 
 ## Hello World
 Output Hello World to the console by passing in a variable
@@ -48,3 +54,6 @@ Output Hello World to the console by passing in a variable
 
  See [WP shell command doesn't work in WP-CLI #1097](https://github.com/WordPress/wordpress-playground/issues/1097)
  
+In the example above, the `my_option` option is defined in the blueprint schema. The `shell` step then uses the `$MY_OPTION` environment variable to access the value of the option and output it to the console.
+
+When the blueprint is executed, the output will be `Hello, World!` as defined in the default value of the `my_option` option.
