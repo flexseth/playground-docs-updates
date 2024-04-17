@@ -25,7 +25,6 @@ Accessibility testing considerations
 - If you are absolutely sure you don't want these files anymore, you can delete them permanently.
 
  (this is not) testing accessibility in Playground, make sure you are testing against the instance and not the website created in the instance
-- SEE:
 
 ## Roadmap
 Unit Testing with PHPUnit - [blocked by #1250](https://github.com/WordPress/wordpress-playground/pull/1250)
