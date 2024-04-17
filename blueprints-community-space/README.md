@@ -32,3 +32,5 @@ from @annezazu
 > - Twenty Twenty-Four with both theme provided and custom starter patterns, along with patterns prioritized from the pattern directory.
 > - Twenty Twenty-Four with various block options limited (duotone, color, typography tools) and client side filtering for some blocks.
 
+## Contributing to the Community Space
+If you would like your blueprint to be included in the Community Space, please follow the guidelines for [contributing.md](./contributing.md).
