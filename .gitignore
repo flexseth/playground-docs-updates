@@ -57,4 +57,4 @@ twenty*
 *.php
 
 # Blueprints in the root directory
-wp-content/*.json
+*.json
