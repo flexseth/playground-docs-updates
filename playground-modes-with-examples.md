@@ -96,3 +96,7 @@ playground: If no other conditions are matched, launches a completely virtualize
 
 [**Examples**](#)
 
+
+## Limitations
+`mu-plugin` folder directory and quirky mode [#234](https://github.com/WordPress/playground-tools/issues/234)
+> wp-now detects wp-content mode if there is a mu-plugins subdir inside the dir where it is executed

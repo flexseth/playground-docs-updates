@@ -5,15 +5,28 @@ There are different types of testing that can be done in the Playground, includi
 
 This document provides an overview of the different types of testing that can be done in the Playground, as well as some best practices for testing your code. 
 -  Integration Testing
--  End-to-End Testing
+-  End-to-End Testing - [#805](https://github.com/WordPress/wordpress-playground/issues/805)
 -  Testing with Playwright
 -  Testing with Cypress
 -  Testing with Selenium
--  Testing with Jest
+-  Testing with [Jest](./testing-with-jest.md)
 -  Performance Testing
 
 ## Testing with Cypress
 Cypress is a popular testing framework for web applications. It is a fast, easy-to-use tool that allows you to write and run tests for your web applications.
+
+[Testing with Cypress - #802](https://github.com/WordPress/wordpress-playground/pull/802) 
+
+## Testing a plugin
+[Walkthrough testing a plugin](./testing-a-plugin.md) with the VS Code Extension
+
+## Testing a theme
+Import [theme unit test data](./import-theme-unit-test-data.md) to test your theme. Some current limitations bust mostly working.
+
+The following URL will showcase the TwentyTwentyFour theme with the theme unit test data imported.
+
+https://playground.wordpress.net/?php=8.0&wp=6.4&storage=none&networking=yes&import-content=https://raw.githubusercontent.com/WordPress/theme-test-data/master/themeunittestdata.wordpress.xml
+
 
 
 ## Accessibility Testing
