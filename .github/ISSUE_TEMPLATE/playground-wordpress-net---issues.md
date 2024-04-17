@@ -1,7 +1,7 @@
 ---
 name: playground.wordpress.net - Issues
 about: Something did not work as expected in the online version of Playground?
-title: 'Report an issue with playground.wordpress.net'
+title: 'Playground Online: Report an issue with playground.wordpress.net'
 labels: bug
 assignees: ''
 
@@ -11,8 +11,10 @@ assignees: ''
 <--! What did you encounter that seems to be broken? -->
 
 ## What protocol is used with the blueprint?
-[Query API](https://wordpress.github.io/wordpress-playground/apis-overview#query-api)
-[JavaScript API](https://wordpress.github.io/wordpress-playground/apis-overview#javascript-api)
+Query API: https://wordpress.github.io/wordpress-playground/apis-overview#query-api
+JavaScript API: https://wordpress.github.io/wordpress-playground/apis-overview#javascript-api
+PR Previewer - Look in `./testing/PROP.md` for more info
+
 
 ## Blueprint or no?
 Did you send a custom blueprint to the instance, or just boot up as-is?
@@ -71,6 +73,9 @@ You can use the [Site Health](site-health.md) Check screen to
  - submit WordPress environment info
  - submit local system info
 
+You can use the Playground menu to `Report error`, which will automaticlly send some information and submit to the `#playground-logs` Channel on Making WordPress Slack.
+
+
 ## `#playground-logs` on Slack
 How to report to the #`playground-logs` instance on Making WordPress Slack?
 
@@ -97,9 +102,14 @@ Best practices for console log reporting
 
 ## Environmental info
 <!-- please complete the following information -->
- - <!--
-   Operating system: `'nix`, `MacOS`, `Windows`, `other`
-   -->
+Operating system: `'nix`, `MacOS`, `Windows`, `other`
+<!--
+   select one from the list above and delete the others
+   or include your OS info
+   then delete this comment
+
+   change the following info also
+-->
    
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
