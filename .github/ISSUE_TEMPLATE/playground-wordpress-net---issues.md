@@ -1,7 +1,7 @@
 ---
 name: playground.wordpress.net - Issues
 about: Something did not work as expected in the online version of Playground?
-title: 'Report an issue with playground.wordpress.net'
+title: 'Playground Online: Report an issue with playground.wordpress.net'
 labels: bug
 assignees: ''
 
@@ -11,8 +11,10 @@ assignees: ''
 <--! What did you encounter that seems to be broken? -->
 
 ## What protocol is used with the blueprint?
-[Query API](https://wordpress.github.io/wordpress-playground/apis-overview#query-api)
-[JavaScript API](https://wordpress.github.io/wordpress-playground/apis-overview#javascript-api)
+Query API: https://wordpress.github.io/wordpress-playground/apis-overview#query-api
+JavaScript API: https://wordpress.github.io/wordpress-playground/apis-overview#javascript-api
+PR Previewer - Look in `./testing/PROP.md` for more info
+
 
 ## Blueprint or no?
 Did you send a custom blueprint to the instance, or just boot up as-is?
