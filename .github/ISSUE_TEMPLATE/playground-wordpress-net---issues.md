@@ -99,9 +99,14 @@ Best practices for console log reporting
 
 ## Environmental info
 <!-- please complete the following information -->
- - <!--
-   Operating system: `'nix`, `MacOS`, `Windows`, `other`
-   -->
+Operating system: `'nix`, `MacOS`, `Windows`, `other`
+<!--
+   select one from the list above and delete the others
+   or include your OS info
+   then delete this comment
+
+   change the following info also
+-->
    
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
