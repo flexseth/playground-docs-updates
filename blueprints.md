@@ -119,6 +119,16 @@ Check out the [roadmap](./roadmap.md) for more information on what's coming up n
 
 Everything listed in the [Blueprints library issue](https://github.com/WordPress/blueprints-library/issues/64)
 
+## Blueprints requested
+If you'd like to build one of a number of Blueprints requested, check out this issue [#1](https://github.com/adamziel/blueprints/issues/1) in the `blueprints` repo for some ideas.
+
+Your blueprint will show up in the Blueprint Community, so you'll want to properly set it up. 
+
+Follow the [guidelines](./blueprints-community-space/contributing.md) for contributing blueprints to the Community Space.
+
+More blueprint ideas [here](./blueprints-community-space/contributing-examples/blueprint-ideas.md), and [here](./blueprints-community-space/contributing-examples/ideas.md)
+
+
 
 #### Links to add and address
 [Tracking: Redesign Documentation](https://github.com/WordPress/wordpress-playground/issues/217)
