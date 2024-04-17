@@ -49,3 +49,21 @@ twenty*
 wp-content/html-pages
 *.php
 *.json
+=======
+/wp-content/themes
+
+# Completed HTML files in the root directory
+wp-content/html-pages
+
+# Theme files
+twenty*
+
+# Plugin files
+*.php
+
+# Blueprints in the root directory
+wp-content/*.json
+
+*.json
+schema.md
+>>>>>>> Stashed changes
