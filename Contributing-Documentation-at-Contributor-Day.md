@@ -5,7 +5,7 @@ If you don't know what Playground is, skim over this [Introduction to Playground
 Then read [Contributing to Playground Documentation](https://wordpress.github.io/wordpress-playground/contributing/documentation/). Playground documentation is written in markdown and lives at https://github.com/WordPress/wordpress-playground/tree/trunk/packages/docs/site/docs. Your contributions in form of Pull Requests are the most appreciated.
 
 ## Specific documentation tasks
-
+* [Existing documentation updates](https://github.com/flexseth/playground-docs-updates) - feel free to use any incomplete docs here to finish up as a contribution to Playground documentation.
 * [Contributing to end user documentation using Playground](https://github.com/WordPress/wordpress-playground/issues/1254)
 * [How to demo your theme or your plugin with Playground?](https://github.com/WordPress/wordpress-playground/issues/1255)
 * [How to add Pull Request previews to your repository?](https://github.com/WordPress/wordpress-playground/issues/1237)
