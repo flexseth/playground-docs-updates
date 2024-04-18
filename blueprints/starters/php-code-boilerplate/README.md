@@ -10,4 +10,4 @@ Required files:
 - `blueprint.json` - This file provides the structure of the Blueprint and the steps that are needed to run the Blueprint.
 - `code.php` - Code blocks of `PHP` separated by comments and with correct formatting.
 
-The other parts of the PHP Boilerplate Blueprint are formatted `PHP` code and the `blueprint.json` files. These three files together make consuming a Blueprint that uses `PHP` code steps easier.
+The only file necessary here is the `blueprint.json` file, the other files are for documentation and reference purposes.
