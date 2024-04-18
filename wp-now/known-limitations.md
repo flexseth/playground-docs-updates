@@ -1,5 +1,6 @@
 ## Common errors
 > command not found: wp-now
+
 You must install `wp-now`, please visit the `NPM` [package page](https://www.npmjs.com/package/@wp-now/wp-now#known-issues) to install.
 
 ## Known Limitations
