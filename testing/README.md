@@ -10,6 +10,7 @@ This document provides an overview of the different types of testing that can be
 ###  [End-to-End](../e2e-testing-in-playground.md) Testing
 -  Testing with [PHPUnit](./testing-PHPUnit.md)
 -  Testing with Playwright - link to [Gutenberg packages](https://github.com/WordPress/gutenberg/tree/trunk/packages/e2e-test-utils-playwright)
+- Some Playwright test examples [#885](https://github.com/WordPress/wordpress-playground/issues/885)
 
 ## Testing with Cypress
 Cypress is a popular testing framework for web applications. It is a fast, easy-to-use tool that allows you to write and run tests for your web applications.
@@ -44,14 +45,8 @@ Tracking testing coverage
 
 
 ## Accessibility Testing
-Learn more [about accessibility testing](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/accessibility/) in WordPress
 Accessibility testing considerations
-
-[a11y-theme-unit-test](https://github.com/wpaccessibility/a11y-theme-unit-test)
-
-
-### Considerations
-Are you testing the Playground itself or a website created with the Playground?
+- Are you testing the Playground itself or a website created with the Playground?
 - more info here: [#612](https://github.com/WordPress/wordpress-playground/issues/612)
 - If you test Playground itself, make sure it's a brand new instance by resetting and deleting the files you were working on.
 - For safety purpose it's recommend not to do a hard-delete via the command-line or keyboard shortcuts, but rather to drag the folder to the trash. 
@@ -65,5 +60,3 @@ Unit Testing with PHPUnit - [blocked by #1250](https://github.com/WordPress/word
 E2E tests for GitHub integration [#805](https://github.com/WordPress/wordpress-playground/issues/805)
 
 E2E tests for the local filesystem sync [#806](https://github.com/WordPress/wordpress-playground/issues/806)
-
-[WordPress Coding Standards WPCS](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/) - using with the Playground
