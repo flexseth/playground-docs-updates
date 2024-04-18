@@ -14,3 +14,7 @@ Testing for compatibility with WordPress 6.5
 ## Docs todo
 [ ] Add screenshots / video cast
 
+## Resources
+- https://github.com/WordPress/press-this
+- https://wordpress.org/plugins/press-this/
+
