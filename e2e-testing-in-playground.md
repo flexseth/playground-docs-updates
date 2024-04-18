@@ -17,6 +17,7 @@ Instructions for testing are as follows:
 ## About End-to-End Testing in the Playground
 - [ ] Document any and all info on testing
   - [Request for more info in Slack](https://wordpress.slack.com/archives/C04EWKGDJ0K/p1712599097498159)
+- Available docs on [E2E testing](./testing/README.md)
 
 ## WordPress Coding Standardards
 - [ ] Docs on checking your plugin for PHP Coding Standards
@@ -24,8 +25,7 @@ Instructions for testing are as follows:
 - [ ] Docs on WordPress Coding Standards (WPCS) and how to test in Playground
 
 ## Accessibility testing
-- [ ] TODO: Docs on checking your plugin for Accessibility Standards
+- [ ] Docs on checking your plugin for Accessibility Standards
 
 ### Resources
-More on Testing in Playground
-- README.md in 
+[More on Testing in Playground](./testing/README.md)
