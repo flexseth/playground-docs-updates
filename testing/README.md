@@ -10,6 +10,7 @@ This document provides an overview of the different types of testing that can be
 ###  [End-to-End](../e2e-testing-in-playground.md) Testing
 -  Testing with [PHPUnit](./testing-PHPUnit.md)
 -  Testing with Playwright - link to [Gutenberg packages](https://github.com/WordPress/gutenberg/tree/trunk/packages/e2e-test-utils-playwright)
+- Some Playwright test examples [#885](https://github.com/WordPress/wordpress-playground/issues/885)
 
 ## Testing with Cypress
 Cypress is a popular testing framework for web applications. It is a fast, easy-to-use tool that allows you to write and run tests for your web applications.

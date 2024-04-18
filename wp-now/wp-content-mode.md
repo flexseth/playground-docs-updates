@@ -21,6 +21,8 @@ You have all of the content, import the existing website content, and can now wo
 
 When you close out your terminal or VS Code the `wp-now` process will stop your web server.
 
+In order to get back into the same Playground, you'll simply want to restart Playground from the same folder location. There may be a port change but the site will have your changes saved.
+
 ## Contents
 WordPress installation should include the following:
 - All uploaded media to this website
