@@ -46,6 +46,7 @@ Quirky boot modes
 -   Inline images are broken when site starts on a different port: [WordPress/wordpress-playground#356](https://github.com/WordPress/wordpress-playground/issues/356)
 -   In 'wordpress' mode, `wp-now` can connect to a MySQL database with `define( 'DB_HOST', '127.0.0.1' );`, but `define( 'DB_HOST', 'localhost' );` does not work: [WordPress/wordpress-playground#369](https://github.com/WordPress/wordpress-playground/issues/369)
 - SSL: Local Environment: Support SSL connections [#24](https://github.com/WordPress/playground-tools/issues/24)
+- wp-now: Error starting: getaddrinfo ENOTFOUND [#32](https://github.com/adamziel/playground-docs-workflow/issues/32)
 
 #### Windows
 -   `wp-now` doesn't build or start on Windows: [WordPress/playground-tools#66](https://github.com/WordPress/playground-tools/issues/66), [WordPress/playground-tools#11](https://github.com/WordPress/playground-tools/issues/11)
