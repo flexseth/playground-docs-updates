@@ -1,6 +1,9 @@
-## Known Limitations
-- Shell steps don't work in `wp-now` - [#1166](https://github.com/WordPress/wordpress-playground/issues/1166)
+## Common errors
+> command not found: wp-now
+You must install `wp-now`, please visit the `NPM` [package page](https://www.npmjs.com/package/@wp-now/wp-now#known-issues) to install.
 
+## Known Limitations
+These issues were pulled from the Playground Tools and WordPress Playground repositories. 
 
 ## Known Issues
 See the [WordPress Playground](https://github.com/WordPress/playground-tools/labels/wp-now) for all known issues. `wp-now` is a great tool and we look forward to hearing your feedback, stress testing the project, and improving it over time.
@@ -9,6 +12,7 @@ See the [WordPress Playground](https://github.com/WordPress/playground-tools/lab
 ## `wp-cli`
 Very limited support for `wp-cli` outside of use with blueprints
 - WP-NOW: Add wp-cli integration [#212](https://github.com/WordPress/playground-tools/pull/212)
+- `Shell` steps don't work in `wp-now` - [#1166](https://github.com/WordPress/wordpress-playground/issues/1166)
 
 
 #### Boot modes
@@ -62,6 +66,7 @@ Quirky boot modes
   - Blocked by needing Passwordless login 
 - Image links broken when moving from wordpress-playground to wp-now [#942](https://github.com/WordPress/wordpress-playground/issues/942)
 - CORS header workaround needed for Theme Unit Test import [#718](https://github.com/WordPress/wordpress-playground/issues/718)
+- Plugins on `SVN` won't properly import test data (see [#99](https://github.com/WordPress/blueprints-library/issues/99))
 
 #### Performance
 - wp-now: out of memory error when running for many hours [#96](https://github.com/WordPress/playground-tools/issues/96)
