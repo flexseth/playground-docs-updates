@@ -1,8 +1,12 @@
-## About `wp-now`
-> wp-now streamlines the process of setting up a local WordPress environment.
-See the NPM package on [wp-now](https://www.npmjs.com/package/@wp-now/wp-now).
+# wp-now
 
-See [more info](about-wp-now-more-info.md) to dive deeper, learn about boot modes and more.
+`wp-now` streamlines the process of setting up a local WordPress environment.
+
+It uses automatic mode detection to provide a fast setup process, regardless of whether you're working on a plugin or an entire site. You can easily switch between PHP and WordPress versions with just a configuration argument. Under the hood, `wp-now` is powered by WordPress Playground.
+
+![Demo GIF of wp-now](https://github.com/WordPress/playground-tools/assets/779993/d75cb2fe-c75a-489b-9db5-29258ff7e27f)
+
+See the NPM package on [wp-now](https://www.npmjs.com/package/@wp-now/wp-now).
 
 ## Requirements
 `wp-now` includes an entire WordPress environment, so you don't need to install WordPress separately. It runs on PHP WASM.
@@ -10,6 +14,7 @@ See [more info](about-wp-now-more-info.md) to dive deeper, learn about boot mode
 ## Requirements for contributing to `wp-now`
 `Node.js` is required to develop `wp-now`. You can download it from the [Node.js website](https://nodejs.org/).
 
+Additionally, if you need to install `NPM` packages for your site build, you will need to have Node installed.
 
 ---
 
@@ -23,11 +28,6 @@ See Boot Modes below for more info.
 ## Allowing Plugin Previews on WordPress.org
 Add blueprint.json file to enable plugin previews #481
 - https://github.com/WordPress/create-block-theme/issues/481
-
-## Limitations
-The `shell` step currently won't work in `wp-now` because it doesn't support the `shell` command.
-This is a known limitation that we are working towards making work! 
-- [ ] TODO: Clarify what common "shell" type things you can do another way in `wp-now`
 
 
 ## Updating `wp-now` docs on the Playground Tools repo
@@ -60,7 +60,7 @@ npx @wp-now/wp-now start  --wp=5.9 --php=7.4 --blueprint=path/to/blueprint-examp
 ```
 
 ## Table of Contents
-
+(needs updating?)
 -   [Quickstart](#quickstart)
 -   [Requirements](#requirements)
 -   [Usage](#usage)
@@ -240,15 +240,6 @@ For example, if you run `wp-now start --blueprint=path/to/blueprint-example.json
 	]
 }
 ```
-
-## Known Issues
-
--   Running `wp-now start` in 'wp-content' or 'wordpress' mode will produce some empty directories: [WordPress/wordpress-playground#328](https://github.com/WordPress/wordpress-playground/issues/328)
--   Inline images are broken when site starts on a different port: [WordPress/wordpress-playground#356](https://github.com/WordPress/wordpress-playground/issues/356)
--   `wp-now` doesn't build or start on Windows: [WordPress/playground-tools#66](https://github.com/WordPress/playground-tools/issues/66), [WordPress/playground-tools#11](https://github.com/WordPress/playground-tools/issues/11)
--   It's not possible to set `WP_DEBUG` and other `wp-config.php` constants: [WordPress/playground-tools#17](https://github.com/WordPress/playground-tools/issues/17)
--   In 'wordpress' mode, `wp-now` can connect to a MySQL database with `define( 'DB_HOST', '127.0.0.1' );`, but `define( 'DB_HOST', 'localhost' );` does not work: [WordPress/wordpress-playground#369](https://github.com/WordPress/wordpress-playground/issues/369)
--   `wp-now` published versions can appear random: [WordPress/wordpress-playground#357](https://github.com/WordPress/wordpress-playground/issues/357)
 
 ## Comparisons
 

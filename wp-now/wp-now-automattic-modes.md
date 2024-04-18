@@ -1,3 +1,6 @@
+This document is a work in progress. Want to contribute examples?
+Please do! 
+
 ## How to boot up Playground in easy mode
 `wp-content` mode 
 - Loads up everything in the `wp-content` directory
